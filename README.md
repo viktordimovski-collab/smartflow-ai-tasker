@@ -1,21 +1,54 @@
-# SmartFlow AI Tasker 🚀
+# SmartFlow AI Tasker
 
-A professional AI-driven management platform built with the MERN stack (React/Node.js) and integrated with Google's Gemini 2.0 Flash API.
+**AI-Powered Task Breakdown Assistant**  
+An intelligent task management application that uses Google's Gemini AI to automatically break down complex tasks into structured, actionable subtasks.
 
-## 🌟 Key Features
-- **Intelligent Task Analysis**: Direct integration with Gemini API for advanced logic processing.
-- **Dota 2 Ranked Insights**: Custom tools designed to analyze game metadata and ranked performance.
-- **Fragrance Engine**: A specialized module for comparing high-performance male fragrances.
-- **Secure Architecture**: Implemented robust `.gitignore` patterns to protect environment variables and API keys.
+![SmartFlow AI](https://via.placeholder.com/800x400?text=SmartFlow+AI+Dashboard) <!-- Овде подоцна стави реална слика -->
+
+## ✨ Features
+
+- **AI Task Decomposition** – Break down complex tasks using Gemini 1.5/2.0 Flash
+- **Smart Categorization** – Automatic assignment of priority, category, and icon
+- **Modern UI** – Clean and responsive React + Tailwind interface
+- **Real-time Processing** – Fast backend with Node.js + Express
+- **Multiple Use Cases** – From gaming research to daily productivity and shopping
 
 ## 🛠 Tech Stack
-- **Frontend**: React (Vite)
-- **Backend**: Node.js & Express
-- **AI**: Gemini 2.0 Flash
-- **DevOps**: Git, PowerShell
+
+**Frontend:**
+- React.js
+- Vite
+- Tailwind CSS
+
+**Backend:**
+- Node.js + Express
+- Gemini API (Google)
+- CORS & dotenv
+
+**Tools:**
+- Git + GitHub
+- ESLint + Prettier
 
 ## 🚀 Quick Start
 
-1. **Clone the repo**:
-   ```bash
-   git clone [https://github.com/viktordimovski-collab/smartflow-ai-tasker.git](https://github.com/viktordimovski-collab/smartflow-ai-tasker.git)
+### Prerequisites
+- Node.js (v18+)
+- Gemini API Key [](https://ai.google.dev)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/viktordimovski-collab/smartflow-ai-tasker.git
+cd smartflow-ai-tasker
+
+# Backend setup
+cd server
+npm install
+cp .env.example .env     # Add your GEMINI_API_KEY
+npm run dev
+
+# Frontend setup (new terminal)
+cd ../client
+npm install
+npm run dev
